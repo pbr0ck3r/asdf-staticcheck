@@ -18,7 +18,7 @@ jobs:
     steps:
       # Install Golang for the specific OS and version (optional)
       - name: Set up Go environment
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v5
         with:
           go-version: 1.22
 
